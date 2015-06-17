@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.prosystem"
+<addon id="game.libretro.2048"
 		name="2048"
-		version="1.0.1"
+		version="1.0.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="game.libretro.2048.so"
+                   library_android="libgame.libretro.2048.so"
                    library_linux="game.libretro.2048.so"
                    library_osx="game.libretro.2048.dylib"
                    library_windx="game.libretro.2048.dll"
@@ -18,8 +18,14 @@
 		<supports_no_game>true</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">2048 v1.0.1</summary>
-		<description>Source: https://github.com/libretro/libretro-2048</description>
+		<summary lang="en">2048 v1.0</summary>
+		<description>Join the numbers and get to the 2048 tile!
+
+Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!
+
+Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.
+
+License: Public domain</description>
 		<platform>all</platform>
 	</extension>
 </addon>
