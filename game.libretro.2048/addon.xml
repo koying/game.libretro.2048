@@ -27,5 +27,6 @@ Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually simi
 
 License: Public domain</description>
 		<platform>all</platform>
+		<nofanart>true</nofanart>
 	</extension>
 </addon>
