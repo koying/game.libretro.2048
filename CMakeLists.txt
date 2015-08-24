@@ -9,6 +9,7 @@ enable_language(CXX)
 find_package(kodi REQUIRED)
 find_package(2048 REQUIRED)
 
+set(DEPLIBS 2048)
 set(LIBRETRO_2048_CUSTOM_BINARY ${LIBRETRO_2048_LIB}
                                 game.libretro.2048${CMAKE_SHARED_LIBRARY_SUFFIX} 2048)
 
