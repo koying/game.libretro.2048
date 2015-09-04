@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 enable_language(CXX)
 
 find_package(kodi REQUIRED)
-find_package(2048 REQUIRED)
+find_package(libretro-2048 REQUIRED)
 
 set(DEPLIBS 2048)
 set(LIBRETRO_2048_CUSTOM_BINARY ${LIBRETRO_2048_LIB}
