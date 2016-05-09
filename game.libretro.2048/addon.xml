@@ -14,8 +14,10 @@
                    library_wingl="game.libretro.2048.dll">
 		<platforms></platforms>
 		<extensions></extensions>
-		<supports_vfs>true</supports_vfs>
-		<supports_no_game>true</supports_no_game>
+		<supports_game_loop>true</supports_game_loop>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">2048 v1.0</summary>
@@ -23,9 +25,8 @@
 
 Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!
 
-Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.
-
-License: Public domain</description>
+Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.</description>
+		<license>Public domain</license>
 		<platform>all</platform>
 		<nofanart>true</nofanart>
 	</extension>
