@@ -7,11 +7,7 @@
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.2048.so"
-                   library_linux="game.libretro.2048.so"
-                   library_osx="game.libretro.2048.dylib"
-                   library_windx="game.libretro.2048.dll"
-                   library_wingl="game.libretro.2048.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
 		<extensions></extensions>
 		<supports_vfs>true</supports_vfs>
@@ -26,7 +22,7 @@ Use your arrow keys to move the tiles. When two tiles with the same number touch
 
 Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.</description>
 		<license>Public domain</license>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
