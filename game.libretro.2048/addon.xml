@@ -14,8 +14,7 @@
                    library_wingl="game.libretro.2048.dll">
 		<platforms></platforms>
 		<extensions></extensions>
-		<supports_game_loop>true</supports_game_loop>
-		<supports_vfs>false</supports_vfs>
+		<supports_vfs>true</supports_vfs>
 		<supports_standalone>true</supports_standalone>
 		<supports_keyboard>false</supports_keyboard>
 	</extension>
