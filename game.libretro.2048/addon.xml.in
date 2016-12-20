@@ -16,13 +16,13 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">2048 v1.0 2334b50</summary>
+		<summary lang="en">2048 v1.0</summary>
 		<description>Join the numbers and get to the 2048 tile!
 
 Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!
 
 Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually similar to Threes by Asher Vollmer.</description>
-		<license>GPLv3</license>
+		<license>Public Domain</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
