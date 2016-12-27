@@ -26,6 +26,10 @@ Created by Gabriele Cirulli. Based on 1024 by Veewo Studio and conceptually simi
 		<platform>@PLATFORM@</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
