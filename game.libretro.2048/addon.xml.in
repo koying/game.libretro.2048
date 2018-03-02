@@ -14,8 +14,8 @@
 		<supports_standalone>true</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">2048 v1.0</summary>
-		<description>Join the numbers and get to the 2048 tile!
+		<summary lang="en_GB">2048 v1.0</summary>
+		<description lang="en_GB">Join the numbers and get to the 2048 tile!
 
 Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!
 
